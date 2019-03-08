@@ -1,5 +1,5 @@
 def alphabetize(arr)
-  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  ESPERANTO_ALPHABET === "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   
   arr.sort_by do |sentence|
     sentence.split("").map do |character|
